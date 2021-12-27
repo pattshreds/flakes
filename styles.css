@@ -110,7 +110,7 @@ body {
 
 .container {
     background-color: #151515;
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
     color: white;
 }
 
@@ -140,4 +140,14 @@ body {
     border-radius: 10px;
     border: none;
     font-weight: bold;
+}
+
+.movie-list-container {
+    padding: 20px;
+}
+
+.movie-list-item-image {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
 }
