@@ -146,6 +146,10 @@ body {
     padding: 20px;
 }
 
+.movie-list-wrapper {
+    position: relative;
+}
+
 .movie-list {
     display: flex;
     align-items: center;
@@ -158,8 +162,8 @@ body {
 }
 
 .movie-list-item-image {
-    width: 280px;
-    height: 190px;
+    width: 270px;
+    height: 200px;
     object-fit: cover;
     transition: all 0.25s ease-in-out;
 }
@@ -184,6 +188,7 @@ body {
     top: 10%;
     left: 50px;
     opacity: 0;
+    transition: all 0.5s linear;
 }
 
 .movie-list-item-desc {
@@ -195,6 +200,7 @@ body {
     left: 50px;
     width: 230px;
     opacity: 0;
+    transition: all 0.5s linear;
 }
 
 .movie-list-item-btn {
@@ -209,4 +215,15 @@ body {
     bottom: 20px;
     left: 50px;
     opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: light-grey;
+    opacity: 0.5;
+    cursor: pointer;
 }
